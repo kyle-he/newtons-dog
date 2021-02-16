@@ -22,20 +22,61 @@ $I_f = I_i+mr^2$<br>
 # Simple Harmonic Motion
 
 $d = a \sin(\omega t) \\$
-$f = 1/T \\$
+$f = \frac{1}{T}\\$
 $f = \frac{\omega}{2\pi} \\$
 
-#### Spring
+### GENERAL SHM
+If displacement $x$ causes acceleration $a$, then the period of oscillations is 
+
+$T = 2 \pi \sqrt{\frac{x}{a}}$
+
+($a = - \omega^2 x$)
+
+### Spring
 $T = 2\pi \sqrt{\frac{m}{k}} \\$
 $\omega = \sqrt{\frac{k}{m}}$
 
+### Simple Pendulum
+$T = 2\pi \sqrt{\frac{l}{g}} \\$
+$\omega = \sqrt{\frac{g}{l}}$
+
+### Physical Pendulum 
+![](images/phys_pendulum.jpg){ height=256px }
+
 # Error Propagation
+$\Delta (Cx) = C\Delta x$ \
+$\Delta (x + y) = \Delta (x - y) = \sqrt{(\Delta x)^2 + (\Delta y)^2}$ \
+$\Delta (x y) = xy * \sqrt{(\frac{\Delta x}{x})^2 + (\frac{\Delta y}{y})^2}$
+
+$\Delta (k = \frac{x y}{z}) = k \sqrt{(\frac{\Delta x}{x})^2 + (\frac{\Delta y}{y})^2}$
+
+
+$\Delta (x y z) = xyz * \sqrt{(\frac{\Delta x}{x})^2 + (\frac{\Delta y}{y})^2 + (\frac{\Delta z}{z})^2 ...}$ \
+
+$\Delta (x^m y^n) = x^m y^n * \sqrt{(\frac{m \Delta x}{x})^2 + (\frac{n \Delta y}{y})^2 ...}$ \
+
+$\Delta (\frac{4x + y}{5}) = \frac{\sqrt{(4 \Delta x)^2 + (\Delta y)^2}}{5}$ \
+
 
 # Collisions
 
-# Gravity
+### Perfectly Elastic Collisions
+
+* $v_2' = \frac{2m_1}{m_1+m_2}v_1 - \frac{m_1-m_2}{m_1+m_2}v_2$\
+* $v_1' = \frac{m_1-m_2}{m_1+m_2}v_1 + \frac{2m_1}{m_1+m_2}v_2$\
+
+### Perfectly Elastic Collisions (still object)
+
+* $v_2' = \frac{2m_1}{m_1+m_2}v_1$\
+* $v_1' = \frac{m_1-m_2}{m_1+m_2}v_1$\
+
+# Gravity/ Orbit
+![](images/keplerlaw.png){ height=256px }\
+![](images/orbit.png){ height=500px }
 
 # Energy
+$\text{Power} = P = \frac{W}{\Delta t} = Fv$\
+$\text{Impulse} = I = F \Delta t = m \Delta v$
 
 # Kinematics
 
@@ -46,12 +87,9 @@ $\omega = \sqrt{\frac{k}{m}}$
 5. $v^2 = v_0^2 + 2a\Delta x$
 
 ### Launching Ball from Ground
-$Range = \frac{2v^2 \sin{\theta} \cos{\theta}}{g} =\frac{v^2 \sin{(2 \theta)}}{g}$
+$\text{Range} = \frac{2v^2 \sin{\theta} \cos{\theta}}{g} =\frac{v^2 \sin{(2 \theta)}}{g}$
 
 ### Launching ball from cliff
-
-#### Range 
-
 
 #### Optimal angle  
 $h = \frac{v^2}g \left( \frac1{2\sin^2\theta} - 1\right) \\$
