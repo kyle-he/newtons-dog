@@ -61,7 +61,6 @@ $\Delta (\frac{4x + y}{5}) = \frac{\sqrt{(4 \Delta x)^2 + (\Delta y)^2}}{5}$ \
 # Collisions
 
 ### Perfectly Elastic Collisions
-
 * $v_2' = \frac{2m_1}{m_1+m_2}v_1 - \frac{m_1-m_2}{m_1+m_2}v_2$\
 * $v_1' = \frac{m_1-m_2}{m_1+m_2}v_1 + \frac{2m_1}{m_1+m_2}v_2$\
 
@@ -71,12 +70,17 @@ $\Delta (\frac{4x + y}{5}) = \frac{\sqrt{(4 \Delta x)^2 + (\Delta y)^2}}{5}$ \
 * $v_1' = \frac{m_1-m_2}{m_1+m_2}v_1$\
 
 # Gravity/ Orbit
-![](images/keplerlaw.png){ height=256px }\
-![](images/orbit.png){ height=500px }
+### Vis-Viva Equation
+![](images/elippse.jpg){ width=256px } \ ![](images/elliptical-orbit.png){ width=256px } \
+$v^2 = GM(\frac{2}{r}-\frac{1}{a})$ \
+* a is the length of the semi-major axis (a > 0 for ellipses, a = $\infty$ or 1/a = 0 for parabolas, and a < 0 for hyperbolas)
+
+### Kepler's Laws
+![](images/orbit.png){ width=256px } \ ![](images/keplerlaw.png){ width=256px }
 
 # Energy
 $\text{Power} = P = \frac{W}{\Delta t} = Fv$\
-$\text{Impulse} = I = F \Delta t = m \Delta v$
+$\text{Impulse} = J = F \Delta t = m \Delta v$
 
 # Kinematics
 
@@ -94,3 +98,13 @@ $\text{Range} = \frac{2v^2 \sin{\theta} \cos{\theta}}{g} =\frac{v^2 \sin{(2 \the
 #### Optimal angle  
 $h = \frac{v^2}g \left( \frac1{2\sin^2\theta} - 1\right) \\$
 $\Rightarrow \sin\theta = \left( 2 \left(\frac{gh}{v^2} + 1\right) \right)^{-1/2}$
+
+# Helpful Math
+
+### Sums of series
+$\text{Sum of Geometric} = a_1 (\frac{1 - r^n}{1 - r})$ \
+$\text{Sum of Infinite Geometric} = \frac{a_1}{1 - r}$ 
+
+### Trig
+![](images/double-angle-formulas.png){ width=256px }
+
